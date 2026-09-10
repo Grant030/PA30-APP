@@ -1,12 +1,11 @@
 {
-  "name": "PA-30 Twin Comanche Systems Academy",
+  "name": "PA-30 Twin Comanche Systems Academy \u2014 POH Edition",
   "short_name": "PA-30 Systems",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f4f8fb",
   "theme_color": "#073f6b",
-  "description": "Interactive PA-30 Twin Comanche systems trainer for students.",
   "icons": [
     {
       "src": "icons/icon-180.png",
