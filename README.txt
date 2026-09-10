@@ -1,14 +1,14 @@
-PA-30 Systems POH Edition V3
+PA-30 Systems Interactive POH Edition V4
 
-Replace the existing files in your GitHub PA30-APP repository with the contents of this folder.
-IMPORTANT: upload the new /poh folder too.
-Vercel will redeploy automatically from main.
+Replace the files in your PA30-APP GitHub repository with the contents of this folder.
 
-This version adds:
-- Main topic points + How It Works for every system.
-- Actual PA-30 POH scans on each system page.
-- Interactive hotspots directly over POH schematics where the POH provides a system figure.
-- Existing animated normal/failure simulations retained.
-- Fuel system uses POH Figure 7-01 without tip tanks.
-- Electrical teaching points use the C-model POH 12V / dual 70A alternator configuration.
-- Offline cache version bumped to pa30-poh-v3.
+Key change:
+- POH system diagrams are now the interactive diagrams themselves.
+- Vacuum: animated suction arrows, pump failure X, and check-valve closure indication.
+- Fuel: flow arrows are drawn over Figure 7-01 and respond to fuel-system failures.
+- Electrical: current-flow arrows are drawn over Figure 7-03; alternator failures are marked on the actual alternators.
+- Heating/ventilation: airflow arrows are drawn directly over Figure 7-06.
+- Fuel injection: POH Figure 7-01 is used to show servo-regulator → distributor → injector flow.
+- POH diagrams/reference material are placed at the BOTTOM of each system page.
+- Old numbered hotspots were removed.
+- Offline cache bumped to pa30-poh-v4.
